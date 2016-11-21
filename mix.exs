@@ -15,7 +15,9 @@ defmodule Telephonist.Mixfile do
     [applications: [:logger,
                     :httpotion,
                     :cowboy,
-                    :plug
+                    :plug,
+                    :ex_twiml,
+                    :pagexduty
                    ],
      mod: {Telephonist, []}
     ]
