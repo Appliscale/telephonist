@@ -1,0 +1,22 @@
+{
+  "name": "Telephonist",
+  "description": "Automated on-call schedule management based on Twilio + PagerDuty integrations.",
+  "repository": "https://github.com/appliscale/telephonist",
+  "keywords": [
+    "twilio",
+    "pagerduty",
+    "phone",
+    "on-call"
+  ],
+  "env": {
+    "PAGER_DUTY_SCHEDULE_ID": {
+      "description": "ID of schedule prepared on PagerDuty."
+    },
+    "PAGER_DUTY_API_TOKEN": {
+      "description": "PagerDuty API token."
+    },
+    "PAGER_DUTY_DOMAIN": {
+      "description": "The name of your organization which PagerDuty uses as a part of the URL."
+    }
+  }
+}
