@@ -23,6 +23,8 @@ defmodule Telephonist.Mixfile do
 
   defp deps do
     [{:httpotion, "~> 3.0.0"},
+     {:pagexduty, "~> 0.1.0"},
+     {:ex_twiml, "~> 2.1.0"},
      {:cowboy, "~> 1.0.0"},
      {:plug, "~> 1.0"}
     ]
